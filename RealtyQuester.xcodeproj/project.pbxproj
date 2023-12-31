@@ -1,0 +1,843 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F732D1F02B3DC3A5006BE762 /* RealtyQuesterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D1EF2B3DC3A5006BE762 /* RealtyQuesterApp.swift */; };
+		F732D1F22B3DC3A5006BE762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D1F12B3DC3A5006BE762 /* ContentView.swift */; };
+		F732D1F42B3DC3A7006BE762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F732D1F32B3DC3A7006BE762 /* Assets.xcassets */; };
+		F732D1F72B3DC3A7006BE762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F732D1F62B3DC3A7006BE762 /* Preview Assets.xcassets */; };
+		F732D2042B3DC6B1006BE762 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2032B3DC6B1006BE762 /* SplashScreen.swift */; };
+		F732D2062B3DC6BF006BE762 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2052B3DC6BF006BE762 /* Onboarding.swift */; };
+		F732D2082B3DC6FB006BE762 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2072B3DC6FB006BE762 /* LoginView.swift */; };
+		F732D20A2B3DC702006BE762 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2092B3DC702006BE762 /* SignupView.swift */; };
+		F732D20C2B3DC718006BE762 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D20B2B3DC718006BE762 /* OnboardingModel.swift */; };
+		F732D20E2B3DC71D006BE762 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D20D2B3DC71D006BE762 /* LoginModel.swift */; };
+		F732D2102B3DC721006BE762 /* PropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D20F2B3DC721006BE762 /* PropertyModel.swift */; };
+		F732D2122B3DC726006BE762 /* AllUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2112B3DC726006BE762 /* AllUserInfoModel.swift */; };
+		F732D2142B3DC72A006BE762 /* MessagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2132B3DC72A006BE762 /* MessagesModel.swift */; };
+		F732D2162B3DC749006BE762 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2152B3DC749006BE762 /* OnboardingViewModel.swift */; };
+		F732D2182B3DC750006BE762 /* LoginSignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2172B3DC750006BE762 /* LoginSignupViewModel.swift */; };
+		F732D21A2B3DC753006BE762 /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2192B3DC753006BE762 /* PropertyViewModel.swift */; };
+		F732D21C2B3DC758006BE762 /* MessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D21B2B3DC758006BE762 /* MessagesViewModel.swift */; };
+		F732D21E2B3DC75C006BE762 /* getUserIdViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D21D2B3DC75C006BE762 /* getUserIdViewModel.swift */; };
+		F732D2212B3DC78B006BE762 /* ButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2202B3DC78B006BE762 /* ButtonComponent.swift */; };
+		F732D2232B3DC7B5006BE762 /* SignupField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2222B3DC7B5006BE762 /* SignupField.swift */; };
+		F732D2282B3DC81C006BE762 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2272B3DC81C006BE762 /* HomeView.swift */; };
+		F732D22A2B3DC821006BE762 /* AllRealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2292B3DC821006BE762 /* AllRealsView.swift */; };
+		F732D22C2B3DC82D006BE762 /* RealDetialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D22B2B3DC82D006BE762 /* RealDetialsView.swift */; };
+		F732D22E2B3DC831006BE762 /* PhotosGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D22D2B3DC831006BE762 /* PhotosGalleryView.swift */; };
+		F732D2302B3DC84A006BE762 /* AddingRealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D22F2B3DC84A006BE762 /* AddingRealView.swift */; };
+		F732D2322B3DC877006BE762 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2312B3DC877006BE762 /* ProfileView.swift */; };
+		F732D2342B3DC87D006BE762 /* ProfileUpdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2332B3DC87D006BE762 /* ProfileUpdView.swift */; };
+		F732D2362B3DC883006BE762 /* HelpCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2352B3DC883006BE762 /* HelpCenterView.swift */; };
+		F732D2382B3DC88F006BE762 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2372B3DC88F006BE762 /* ChatView.swift */; };
+		F732D23A2B3DC897006BE762 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2392B3DC897006BE762 /* MessagesView.swift */; };
+		F732D23C2B3DC8AB006BE762 /* FavoratitesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D23B2B3DC8AB006BE762 /* FavoratitesView.swift */; };
+		F732D23F2B3DC8E7006BE762 /* ContactUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D23E2B3DC8E7006BE762 /* ContactUs.swift */; };
+		F732D2412B3DC904006BE762 /* LogoutComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2402B3DC904006BE762 /* LogoutComponent.swift */; };
+		F732D2432B3DC918006BE762 /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2422B3DC918006BE762 /* ProfileButton.swift */; };
+		F732D2452B3DC928006BE762 /* ProfileUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2442B3DC928006BE762 /* ProfileUp.swift */; };
+		F732D2472B3DC962006BE762 /* TabHelpCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2462B3DC962006BE762 /* TabHelpCenter.swift */; };
+		F732D24A2B3DC9C4006BE762 /* SegmentedPicker in Frameworks */ = {isa = PBXBuildFile; productRef = F732D2492B3DC9C4006BE762 /* SegmentedPicker */; };
+		F732D24E2B3DCB75006BE762 /* FullRealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D24D2B3DCB75006BE762 /* FullRealCard.swift */; };
+		F732D2502B3DCB79006BE762 /* VerticalRealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D24F2B3DCB79006BE762 /* VerticalRealCard.swift */; };
+		F732D2522B3DCB7D006BE762 /* HorizontalRealCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2512B3DCB7D006BE762 /* HorizontalRealCard.swift */; };
+		F732D2542B3DCB95006BE762 /* FacilitiesComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2532B3DCB95006BE762 /* FacilitiesComponent.swift */; };
+		F732D2562B3DCB9A006BE762 /* MyRealEstatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2552B3DCB9A006BE762 /* MyRealEstatesView.swift */; };
+		F732D2582B3DCB9E006BE762 /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2572B3DCB9E006BE762 /* ChatBubbleView.swift */; };
+		F732D25C2B3DCC6E006BE762 /* FavoriteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D25B2B3DCC6E006BE762 /* FavoriteViewModel.swift */; };
+		F732D25E2B3DCCA1006BE762 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D25D2B3DCCA1006BE762 /* FavoriteModel.swift */; };
+		F732D2602B3EC5BC006BE762 /* ChatRoomsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D25F2B3EC5BC006BE762 /* ChatRoomsModel.swift */; };
+		F732D2622B3EDBE4006BE762 /* ChatRoomsComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2612B3EDBE4006BE762 /* ChatRoomsComponent.swift */; };
+		F732D2912B4097C2006BE762 /* FavoritePropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2902B4097C2006BE762 /* FavoritePropertyModel.swift */; };
+		F732D2932B409C49006BE762 /* FavoritePropertyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2922B409C49006BE762 /* FavoritePropertyCard.swift */; };
+		F732D2952B40A7B9006BE762 /* ConfomDeletFromFavorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D2942B40A7B8006BE762 /* ConfomDeletFromFavorite.swift */; };
+		F732D2972B40F145006BE762 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F732D2962B40F145006BE762 /* Localizable.xcstrings */; };
+		F732D29A2B4110B7006BE762 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F732D2992B4110B7006BE762 /* Lottie */; };
+		F732D29E2B4111DE006BE762 /* LottieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F732D29D2B4111DD006BE762 /* LottieViewModel.swift */; };
+		F732D2A22B4116B5006BE762 /* ul4R7L5jNY.json in Resources */ = {isa = PBXBuildFile; fileRef = F732D2A12B4116B4006BE762 /* ul4R7L5jNY.json */; };
+		F754D4C32B41453E004BC13D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F754D4C22B41453E004BC13D /* KeyboardViewController.swift */; };
+		F754D4C72B41453E004BC13D /* RealtyQuesterKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F754D4C02B41453D004BC13D /* RealtyQuesterKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F754D4CE2B414609004BC13D /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = F754D4CD2B414609004BC13D /* KeyboardKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F754D4C52B41453E004BC13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F732D1E42B3DC3A5006BE762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F754D4BF2B41453D004BC13D;
+			remoteInfo = RealtyQuesterKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F754D4CB2B41453E004BC13D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F754D4C72B41453E004BC13D /* RealtyQuesterKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F732D1EC2B3DC3A5006BE762 /* RealtyQuester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtyQuester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F732D1EF2B3DC3A5006BE762 /* RealtyQuesterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtyQuesterApp.swift; sourceTree = "<group>"; };
+		F732D1F12B3DC3A5006BE762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F732D1F32B3DC3A7006BE762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F732D1F62B3DC3A7006BE762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F732D2032B3DC6B1006BE762 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashScreen.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/SplashScreen/SplashScreen.swift; sourceTree = "<group>"; };
+		F732D2052B3DC6BF006BE762 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Onboarding.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/SplashScreen/Onboarding.swift; sourceTree = "<group>"; };
+		F732D2072B3DC6FB006BE762 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = "../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Login&Signup/LoginView.swift"; sourceTree = "<group>"; };
+		F732D2092B3DC702006BE762 /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupView.swift; path = "../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Login&Signup/SignupView.swift"; sourceTree = "<group>"; };
+		F732D20B2B3DC718006BE762 /* OnboardingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Models/OnboardingModel.swift; sourceTree = "<group>"; };
+		F732D20D2B3DC71D006BE762 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Models/LoginModel.swift; sourceTree = "<group>"; };
+		F732D20F2B3DC721006BE762 /* PropertyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Models/PropertyModel.swift; sourceTree = "<group>"; };
+		F732D2112B3DC726006BE762 /* AllUserInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllUserInfoModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Models/AllUserInfoModel.swift; sourceTree = "<group>"; };
+		F732D2132B3DC72A006BE762 /* MessagesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Models/MessagesModel.swift; sourceTree = "<group>"; };
+		F732D2152B3DC749006BE762 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OnboardingViewModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/ViewModels/OnboardingViewModel.swift; sourceTree = "<group>"; };
+		F732D2172B3DC750006BE762 /* LoginSignupViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginSignupViewModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/ViewModels/LoginSignupViewModel.swift; sourceTree = "<group>"; };
+		F732D2192B3DC753006BE762 /* PropertyViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PropertyViewModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/ViewModels/PropertyViewModel.swift; sourceTree = "<group>"; };
+		F732D21B2B3DC758006BE762 /* MessagesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesViewModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/ViewModels/MessagesViewModel.swift; sourceTree = "<group>"; };
+		F732D21D2B3DC75C006BE762 /* getUserIdViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = getUserIdViewModel.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/ViewModels/getUserIdViewModel.swift; sourceTree = "<group>"; };
+		F732D2202B3DC78B006BE762 /* ButtonComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonComponent.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/ButtonComponent.swift; sourceTree = "<group>"; };
+		F732D2222B3DC7B5006BE762 /* SignupField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignupField.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/SignupField.swift; sourceTree = "<group>"; };
+		F732D2272B3DC81C006BE762 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		F732D2292B3DC821006BE762 /* AllRealsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllRealsView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Home/AllRealsView.swift; sourceTree = "<group>"; };
+		F732D22B2B3DC82D006BE762 /* RealDetialsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RealDetialsView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Home/RealDetialsView.swift; sourceTree = "<group>"; };
+		F732D22D2B3DC831006BE762 /* PhotosGalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosGalleryView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Home/PhotosGalleryView.swift; sourceTree = "<group>"; };
+		F732D22F2B3DC84A006BE762 /* AddingRealView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddingRealView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/AddRealty/AddingRealView.swift; sourceTree = "<group>"; };
+		F732D2312B3DC877006BE762 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = "../../../../../Downloads/RealtyQuester1 2/RealtyQuester1/ProfileView.swift"; sourceTree = "<group>"; };
+		F732D2332B3DC87D006BE762 /* ProfileUpdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileUpdView.swift; path = "../../../../../Downloads/RealtyQuester1 2/RealtyQuester1/ProfileUpdView.swift"; sourceTree = "<group>"; };
+		F732D2352B3DC883006BE762 /* HelpCenterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HelpCenterView.swift; path = "../../../../../Downloads/RealtyQuester1 2/RealtyQuester1/HelpCenterView.swift"; sourceTree = "<group>"; };
+		F732D2372B3DC88F006BE762 /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatView.swift; path = "../../../../../Downloads/RealtyQuester1 2/RealtyQuester1/ChatView.swift"; sourceTree = "<group>"; };
+		F732D2392B3DC897006BE762 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessagesView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Seham/MessagesView.swift; sourceTree = "<group>"; };
+		F732D23B2B3DC8AB006BE762 /* FavoratitesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoratitesView.swift; path = ../../../../RealtyQuesterApp/RealtyQuesterApp/Views/Seham/FavoratitesView.swift; sourceTree = "<group>"; };
+		F732D23E2B3DC8E7006BE762 /* ContactUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactUs.swift; path = "../../../../Downloads/RealtyQuester1 3/RealtyQuester1/Component/ContactUs.swift"; sourceTree = "<group>"; };
+		F732D2402B3DC904006BE762 /* LogoutComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogoutComponent.swift; path = "../../../../Downloads/RealtyQuester1 3/RealtyQuester1/Component/LogoutComponent.swift"; sourceTree = "<group>"; };
+		F732D2422B3DC918006BE762 /* ProfileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileButton.swift; path = "../../../../Downloads/RealtyQuester1 3/RealtyQuester1/Component/ProfileButton.swift"; sourceTree = "<group>"; };
+		F732D2442B3DC928006BE762 /* ProfileUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileUp.swift; path = "../../../../Downloads/RealtyQuester1 3/RealtyQuester1/Component/ProfileUp.swift"; sourceTree = "<group>"; };
+		F732D2462B3DC962006BE762 /* TabHelpCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabHelpCenter.swift; path = "../../../../../Downloads/RealtyQuester1 3/RealtyQuester1/Component/TabHelpCenter.swift"; sourceTree = "<group>"; };
+		F732D24D2B3DCB75006BE762 /* FullRealCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullRealCard.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/FullRealCard.swift; sourceTree = "<group>"; };
+		F732D24F2B3DCB79006BE762 /* VerticalRealCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerticalRealCard.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/VerticalRealCard.swift; sourceTree = "<group>"; };
+		F732D2512B3DCB7D006BE762 /* HorizontalRealCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HorizontalRealCard.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/HorizontalRealCard.swift; sourceTree = "<group>"; };
+		F732D2532B3DCB95006BE762 /* FacilitiesComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacilitiesComponent.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/FacilitiesComponent.swift; sourceTree = "<group>"; };
+		F732D2552B3DCB9A006BE762 /* MyRealEstatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyRealEstatesView.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/MyRealEstatesView.swift; sourceTree = "<group>"; };
+		F732D2572B3DCB9E006BE762 /* ChatBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatBubbleView.swift; path = ../../../RealtyQuesterApp/RealtyQuesterApp/Components/ChatBubbleView.swift; sourceTree = "<group>"; };
+		F732D25B2B3DCC6E006BE762 /* FavoriteViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteViewModel.swift; path = "../../../../Downloads/RealtyQuester1 4/RealtyQuester1/Model/ViewModel/FavoriteViewModel.swift"; sourceTree = "<group>"; };
+		F732D25D2B3DCCA1006BE762 /* FavoriteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoriteModel.swift; path = "../../../../Downloads/RealtyQuester1 3/RealtyQuester1/Model/FavoriteModel.swift"; sourceTree = "<group>"; };
+		F732D25F2B3EC5BC006BE762 /* ChatRoomsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsModel.swift; sourceTree = "<group>"; };
+		F732D2612B3EDBE4006BE762 /* ChatRoomsComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsComponent.swift; sourceTree = "<group>"; };
+		F732D2902B4097C2006BE762 /* FavoritePropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePropertyModel.swift; sourceTree = "<group>"; };
+		F732D2922B409C49006BE762 /* FavoritePropertyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePropertyCard.swift; sourceTree = "<group>"; };
+		F732D2942B40A7B8006BE762 /* ConfomDeletFromFavorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfomDeletFromFavorite.swift; sourceTree = "<group>"; };
+		F732D2962B40F145006BE762 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F732D29D2B4111DD006BE762 /* LottieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewModel.swift; sourceTree = "<group>"; };
+		F732D2A12B4116B4006BE762 /* ul4R7L5jNY.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ul4R7L5jNY.json; path = ../../../Downloads/ul4R7L5jNY.json; sourceTree = "<group>"; };
+		F754D4C02B41453D004BC13D /* RealtyQuesterKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RealtyQuesterKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F754D4C22B41453E004BC13D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		F754D4C42B41453E004BC13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F732D1E92B3DC3A5006BE762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F732D24A2B3DC9C4006BE762 /* SegmentedPicker in Frameworks */,
+				F732D29A2B4110B7006BE762 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F754D4BD2B41453D004BC13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F754D4CE2B414609004BC13D /* KeyboardKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F732D1E32B3DC3A5006BE762 = {
+			isa = PBXGroup;
+			children = (
+				F732D1EE2B3DC3A5006BE762 /* RealtyQuester */,
+				F754D4C12B41453E004BC13D /* RealtyQuesterKeyboard */,
+				F732D1ED2B3DC3A5006BE762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F732D1ED2B3DC3A5006BE762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F732D1EC2B3DC3A5006BE762 /* RealtyQuester.app */,
+				F754D4C02B41453D004BC13D /* RealtyQuesterKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F732D1EE2B3DC3A5006BE762 /* RealtyQuester */ = {
+			isa = PBXGroup;
+			children = (
+				F732D23D2B3DC8CE006BE762 /* Seham'sComponents */,
+				F732D21F2B3DC775006BE762 /* Components */,
+				F732D1FF2B3DC55D006BE762 /* ViewModels */,
+				F732D1FE2B3DC551006BE762 /* Models */,
+				F732D1FD2B3DC464006BE762 /* Views */,
+				F732D1EF2B3DC3A5006BE762 /* RealtyQuesterApp.swift */,
+				F732D1F12B3DC3A5006BE762 /* ContentView.swift */,
+				F732D1F32B3DC3A7006BE762 /* Assets.xcassets */,
+				F732D1F52B3DC3A7006BE762 /* Preview Content */,
+				F732D2962B40F145006BE762 /* Localizable.xcstrings */,
+				F732D2A12B4116B4006BE762 /* ul4R7L5jNY.json */,
+			);
+			path = RealtyQuester;
+			sourceTree = "<group>";
+		};
+		F732D1F52B3DC3A7006BE762 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F732D1F62B3DC3A7006BE762 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F732D1FD2B3DC464006BE762 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2262B3DC808006BE762 /* Profile */,
+				F732D2252B3DC7F6006BE762 /* AddingNewRealty */,
+				F732D2242B3DC7E1006BE762 /* FavoriteRealty */,
+				F732D2022B3DC5BA006BE762 /* SplashScreen */,
+				F732D2012B3DC5A2006BE762 /* Login&Signup */,
+				F732D2002B3DC588006BE762 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F732D1FE2B3DC551006BE762 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F732D25D2B3DCCA1006BE762 /* FavoriteModel.swift */,
+				F732D20B2B3DC718006BE762 /* OnboardingModel.swift */,
+				F732D20D2B3DC71D006BE762 /* LoginModel.swift */,
+				F732D20F2B3DC721006BE762 /* PropertyModel.swift */,
+				F732D2112B3DC726006BE762 /* AllUserInfoModel.swift */,
+				F732D2132B3DC72A006BE762 /* MessagesModel.swift */,
+				F732D25F2B3EC5BC006BE762 /* ChatRoomsModel.swift */,
+				F732D2902B4097C2006BE762 /* FavoritePropertyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F732D1FF2B3DC55D006BE762 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2152B3DC749006BE762 /* OnboardingViewModel.swift */,
+				F732D2172B3DC750006BE762 /* LoginSignupViewModel.swift */,
+				F732D2192B3DC753006BE762 /* PropertyViewModel.swift */,
+				F732D21B2B3DC758006BE762 /* MessagesViewModel.swift */,
+				F732D21D2B3DC75C006BE762 /* getUserIdViewModel.swift */,
+				F732D25B2B3DCC6E006BE762 /* FavoriteViewModel.swift */,
+				F732D29D2B4111DD006BE762 /* LottieViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F732D2002B3DC588006BE762 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2372B3DC88F006BE762 /* ChatView.swift */,
+				F732D2272B3DC81C006BE762 /* HomeView.swift */,
+				F732D2292B3DC821006BE762 /* AllRealsView.swift */,
+				F732D22B2B3DC82D006BE762 /* RealDetialsView.swift */,
+				F732D22D2B3DC831006BE762 /* PhotosGalleryView.swift */,
+				F732D2392B3DC897006BE762 /* MessagesView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F732D2012B3DC5A2006BE762 /* Login&Signup */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2092B3DC702006BE762 /* SignupView.swift */,
+				F732D2072B3DC6FB006BE762 /* LoginView.swift */,
+			);
+			path = "Login&Signup";
+			sourceTree = "<group>";
+		};
+		F732D2022B3DC5BA006BE762 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2052B3DC6BF006BE762 /* Onboarding.swift */,
+				F732D2032B3DC6B1006BE762 /* SplashScreen.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		F732D21F2B3DC775006BE762 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2222B3DC7B5006BE762 /* SignupField.swift */,
+				F732D2202B3DC78B006BE762 /* ButtonComponent.swift */,
+				F732D24D2B3DCB75006BE762 /* FullRealCard.swift */,
+				F732D24F2B3DCB79006BE762 /* VerticalRealCard.swift */,
+				F732D2512B3DCB7D006BE762 /* HorizontalRealCard.swift */,
+				F732D2532B3DCB95006BE762 /* FacilitiesComponent.swift */,
+				F732D2552B3DCB9A006BE762 /* MyRealEstatesView.swift */,
+				F732D2572B3DCB9E006BE762 /* ChatBubbleView.swift */,
+				F732D2612B3EDBE4006BE762 /* ChatRoomsComponent.swift */,
+				F732D2922B409C49006BE762 /* FavoritePropertyCard.swift */,
+				F732D2942B40A7B8006BE762 /* ConfomDeletFromFavorite.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F732D2242B3DC7E1006BE762 /* FavoriteRealty */ = {
+			isa = PBXGroup;
+			children = (
+				F732D23B2B3DC8AB006BE762 /* FavoratitesView.swift */,
+			);
+			path = FavoriteRealty;
+			sourceTree = "<group>";
+		};
+		F732D2252B3DC7F6006BE762 /* AddingNewRealty */ = {
+			isa = PBXGroup;
+			children = (
+				F732D22F2B3DC84A006BE762 /* AddingRealView.swift */,
+			);
+			path = AddingNewRealty;
+			sourceTree = "<group>";
+		};
+		F732D2262B3DC808006BE762 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F732D2312B3DC877006BE762 /* ProfileView.swift */,
+				F732D2332B3DC87D006BE762 /* ProfileUpdView.swift */,
+				F732D2352B3DC883006BE762 /* HelpCenterView.swift */,
+				F732D2462B3DC962006BE762 /* TabHelpCenter.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F732D23D2B3DC8CE006BE762 /* Seham'sComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F732D23E2B3DC8E7006BE762 /* ContactUs.swift */,
+				F732D2402B3DC904006BE762 /* LogoutComponent.swift */,
+				F732D2422B3DC918006BE762 /* ProfileButton.swift */,
+				F732D2442B3DC928006BE762 /* ProfileUp.swift */,
+			);
+			path = "Seham'sComponents";
+			sourceTree = "<group>";
+		};
+		F754D4C12B41453E004BC13D /* RealtyQuesterKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F754D4C22B41453E004BC13D /* KeyboardViewController.swift */,
+				F754D4C42B41453E004BC13D /* Info.plist */,
+			);
+			path = RealtyQuesterKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F732D1EB2B3DC3A5006BE762 /* RealtyQuester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F732D1FA2B3DC3A7006BE762 /* Build configuration list for PBXNativeTarget "RealtyQuester" */;
+			buildPhases = (
+				F732D1E82B3DC3A5006BE762 /* Sources */,
+				F732D1E92B3DC3A5006BE762 /* Frameworks */,
+				F732D1EA2B3DC3A5006BE762 /* Resources */,
+				F754D4CB2B41453E004BC13D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F754D4C62B41453E004BC13D /* PBXTargetDependency */,
+			);
+			name = RealtyQuester;
+			packageProductDependencies = (
+				F732D2492B3DC9C4006BE762 /* SegmentedPicker */,
+				F732D2992B4110B7006BE762 /* Lottie */,
+			);
+			productName = RealtyQuester;
+			productReference = F732D1EC2B3DC3A5006BE762 /* RealtyQuester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F754D4BF2B41453D004BC13D /* RealtyQuesterKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F754D4C82B41453E004BC13D /* Build configuration list for PBXNativeTarget "RealtyQuesterKeyboard" */;
+			buildPhases = (
+				F754D4BC2B41453D004BC13D /* Sources */,
+				F754D4BD2B41453D004BC13D /* Frameworks */,
+				F754D4BE2B41453D004BC13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealtyQuesterKeyboard;
+			packageProductDependencies = (
+				F754D4CD2B414609004BC13D /* KeyboardKit */,
+			);
+			productName = RealtyQuesterKeyboard;
+			productReference = F754D4C02B41453D004BC13D /* RealtyQuesterKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F732D1E42B3DC3A5006BE762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F732D1EB2B3DC3A5006BE762 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F754D4BF2B41453D004BC13D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F732D1E72B3DC3A5006BE762 /* Build configuration list for PBXProject "RealtyQuester" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = F732D1E32B3DC3A5006BE762;
+			packageReferences = (
+				F732D2482B3DC9C4006BE762 /* XCRemoteSwiftPackageReference "SwiftySegmentedPicker" */,
+				F732D2982B4110B7006BE762 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				F754D4CC2B414609004BC13D /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
+			productRefGroup = F732D1ED2B3DC3A5006BE762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F732D1EB2B3DC3A5006BE762 /* RealtyQuester */,
+				F754D4BF2B41453D004BC13D /* RealtyQuesterKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F732D1EA2B3DC3A5006BE762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F732D1F72B3DC3A7006BE762 /* Preview Assets.xcassets in Resources */,
+				F732D1F42B3DC3A7006BE762 /* Assets.xcassets in Resources */,
+				F732D2972B40F145006BE762 /* Localizable.xcstrings in Resources */,
+				F732D2A22B4116B5006BE762 /* ul4R7L5jNY.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F754D4BE2B41453D004BC13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F732D1E82B3DC3A5006BE762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F732D2582B3DCB9E006BE762 /* ChatBubbleView.swift in Sources */,
+				F732D20A2B3DC702006BE762 /* SignupView.swift in Sources */,
+				F732D2302B3DC84A006BE762 /* AddingRealView.swift in Sources */,
+				F732D25E2B3DCCA1006BE762 /* FavoriteModel.swift in Sources */,
+				F732D21A2B3DC753006BE762 /* PropertyViewModel.swift in Sources */,
+				F732D2452B3DC928006BE762 /* ProfileUp.swift in Sources */,
+				F732D2932B409C49006BE762 /* FavoritePropertyCard.swift in Sources */,
+				F732D2232B3DC7B5006BE762 /* SignupField.swift in Sources */,
+				F732D23A2B3DC897006BE762 /* MessagesView.swift in Sources */,
+				F732D2382B3DC88F006BE762 /* ChatView.swift in Sources */,
+				F732D2042B3DC6B1006BE762 /* SplashScreen.swift in Sources */,
+				F732D2952B40A7B9006BE762 /* ConfomDeletFromFavorite.swift in Sources */,
+				F732D1F22B3DC3A5006BE762 /* ContentView.swift in Sources */,
+				F732D2062B3DC6BF006BE762 /* Onboarding.swift in Sources */,
+				F732D2212B3DC78B006BE762 /* ButtonComponent.swift in Sources */,
+				F732D22C2B3DC82D006BE762 /* RealDetialsView.swift in Sources */,
+				F732D2142B3DC72A006BE762 /* MessagesModel.swift in Sources */,
+				F732D22A2B3DC821006BE762 /* AllRealsView.swift in Sources */,
+				F732D20C2B3DC718006BE762 /* OnboardingModel.swift in Sources */,
+				F732D2182B3DC750006BE762 /* LoginSignupViewModel.swift in Sources */,
+				F732D20E2B3DC71D006BE762 /* LoginModel.swift in Sources */,
+				F732D25C2B3DCC6E006BE762 /* FavoriteViewModel.swift in Sources */,
+				F732D2602B3EC5BC006BE762 /* ChatRoomsModel.swift in Sources */,
+				F732D2502B3DCB79006BE762 /* VerticalRealCard.swift in Sources */,
+				F732D2162B3DC749006BE762 /* OnboardingViewModel.swift in Sources */,
+				F732D2122B3DC726006BE762 /* AllUserInfoModel.swift in Sources */,
+				F732D2522B3DCB7D006BE762 /* HorizontalRealCard.swift in Sources */,
+				F732D2342B3DC87D006BE762 /* ProfileUpdView.swift in Sources */,
+				F732D2322B3DC877006BE762 /* ProfileView.swift in Sources */,
+				F732D2562B3DCB9A006BE762 /* MyRealEstatesView.swift in Sources */,
+				F732D23F2B3DC8E7006BE762 /* ContactUs.swift in Sources */,
+				F732D21E2B3DC75C006BE762 /* getUserIdViewModel.swift in Sources */,
+				F732D2622B3EDBE4006BE762 /* ChatRoomsComponent.swift in Sources */,
+				F732D22E2B3DC831006BE762 /* PhotosGalleryView.swift in Sources */,
+				F732D2102B3DC721006BE762 /* PropertyModel.swift in Sources */,
+				F732D21C2B3DC758006BE762 /* MessagesViewModel.swift in Sources */,
+				F732D2912B4097C2006BE762 /* FavoritePropertyModel.swift in Sources */,
+				F732D2542B3DCB95006BE762 /* FacilitiesComponent.swift in Sources */,
+				F732D2412B3DC904006BE762 /* LogoutComponent.swift in Sources */,
+				F732D2082B3DC6FB006BE762 /* LoginView.swift in Sources */,
+				F732D2432B3DC918006BE762 /* ProfileButton.swift in Sources */,
+				F732D2472B3DC962006BE762 /* TabHelpCenter.swift in Sources */,
+				F732D23C2B3DC8AB006BE762 /* FavoratitesView.swift in Sources */,
+				F732D1F02B3DC3A5006BE762 /* RealtyQuesterApp.swift in Sources */,
+				F732D2362B3DC883006BE762 /* HelpCenterView.swift in Sources */,
+				F732D29E2B4111DE006BE762 /* LottieViewModel.swift in Sources */,
+				F732D24E2B3DCB75006BE762 /* FullRealCard.swift in Sources */,
+				F732D2282B3DC81C006BE762 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F754D4BC2B41453D004BC13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F754D4C32B41453E004BC13D /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F754D4C62B41453E004BC13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F754D4BF2B41453D004BC13D /* RealtyQuesterKeyboard */;
+			targetProxy = F754D4C52B41453E004BC13D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F732D1F82B3DC3A7006BE762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F732D1F92B3DC3A7006BE762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F732D1FB2B3DC3A7006BE762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealtyQuester/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RealtyQuester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F732D1FC2B3DC3A7006BE762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealtyQuester/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RealtyQuester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F754D4C92B41453E004BC13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealtyQuesterKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RealtyQuesterKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RealtyQuester.RealtyQuesterKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F754D4CA2B41453E004BC13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RealtyQuesterKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RealtyQuesterKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RealtyQuester.RealtyQuesterKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F732D1E72B3DC3A5006BE762 /* Build configuration list for PBXProject "RealtyQuester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F732D1F82B3DC3A7006BE762 /* Debug */,
+				F732D1F92B3DC3A7006BE762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F732D1FA2B3DC3A7006BE762 /* Build configuration list for PBXNativeTarget "RealtyQuester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F732D1FB2B3DC3A7006BE762 /* Debug */,
+				F732D1FC2B3DC3A7006BE762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F754D4C82B41453E004BC13D /* Build configuration list for PBXNativeTarget "RealtyQuesterKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F754D4C92B41453E004BC13D /* Debug */,
+				F754D4CA2B41453E004BC13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F732D2482B3DC9C4006BE762 /* XCRemoteSwiftPackageReference "SwiftySegmentedPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KazaiMazai/SwiftySegmentedPicker.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+		F732D2982B4110B7006BE762 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.3.4;
+			};
+		};
+		F754D4CC2B414609004BC13D /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 8.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F732D2492B3DC9C4006BE762 /* SegmentedPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F732D2482B3DC9C4006BE762 /* XCRemoteSwiftPackageReference "SwiftySegmentedPicker" */;
+			productName = SegmentedPicker;
+		};
+		F732D2992B4110B7006BE762 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F732D2982B4110B7006BE762 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		F754D4CD2B414609004BC13D /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F754D4CC2B414609004BC13D /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F732D1E42B3DC3A5006BE762 /* Project object */;
+}

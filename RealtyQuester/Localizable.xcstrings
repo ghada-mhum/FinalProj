@@ -1,0 +1,1545 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    " How can I recover my account ?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف يمكنني استرجاع حسابي؟"
+          }
+        }
+      }
+    },
+    "**1. Property information**" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**1. بيانات العقار**"
+          }
+        }
+      }
+    },
+    "**2. Features**" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**2. المميزات**"
+          }
+        }
+      }
+    },
+    "**3. Images**" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**3. الصور**"
+          }
+        }
+      }
+    },
+    "**4. Location**" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**4. الموقع**"
+          }
+        }
+      }
+    },
+    "%@" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%lld Bath Room" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld دورة مياة"
+          }
+        }
+      }
+    },
+    "%lld Bed Room" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld غرف نوم"
+          }
+        }
+      }
+    },
+    "%lld Bed Rooms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld غرف النوم"
+          }
+        }
+      }
+    },
+    "%lld favorites" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " %lld المفضلة"
+          }
+        }
+      }
+    },
+    "%lld Floors" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld أدوار "
+          }
+        }
+      }
+    },
+    "%lld founds" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld عقارات"
+          }
+        }
+      }
+    },
+    "%lld Kitchen" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld مطبخ"
+          }
+        }
+      }
+    },
+    "%lld Living Room" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld صالة جلوس"
+          }
+        }
+      }
+    },
+    "+9660000000" : {
+
+    },
+    "📍" : {
+
+    },
+    "$%@" : {
+
+    },
+    "3D Plan" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مخطط 3D"
+          }
+        }
+      }
+    },
+    "011345987" : {
+
+    },
+    "A duplex villa that speaks of luxury and quality in The best neighborhoods in Riyadh. It is distinguished by its strategic and vital location close to the airport, Imam University and Princess Noura University. It is also distinguished by its proximity to the sports track, entertainment venues." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا دوبلكس تتحدث عن الفخامة والجودة في أفضل أحياء الرياض وتتميز بموقعها الإستراتيجي والحيوي القريب من المطار وجامعة الإمام وجامعة الأميرة نورة. كما تتميز بقربها من المسار الرياضي والأماكن الترفيهية ."
+          }
+        }
+      }
+    },
+    "A luxury apartment in a great location, close to all services and main roads, and all parking lots are numbered and have impressive facades." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة فاخرة في موقع رائع، قريبة من جميع الخدمات والطرق الرئيسية، وجميع مواقف السيارات مرقمة ولها واجهات مبهرة."
+          }
+        }
+      }
+    },
+    "A new, distinctive and luxurious apartment in the Safa project. The location is distinctive and very close to King Salman Road." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة جديدة ومميزة وفخمة في مشروع الصفا. الموقع مميز وقريب جداً من طريق الملك سلمان."
+          }
+        }
+      }
+    },
+    "A strategic location, diverse and distinctive designs that suit the requirements of every family, and full services, including mosques, green spaces, schools, spacious streets, and a shopping center." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موقع استراتيجي وتصميمات متنوعة ومميزة تناسب متطلبات كل أسرة وخدمات متكاملة من مساجد ومساحات خضراء ومدارس وشوارع واسعة ومركز تسوق."
+          }
+        }
+      }
+    },
+    "A Villa is characterized by elegant design and modern technologies, as the villas include a smart entrance and an elegant inner courtyard." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتميز الفيلا بتصميم أنيق وتقنيات حديثة حيث تحتوي الفلل على مدخل ذكي وساحة داخلية أنيقة."
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف"
+          }
+        }
+      }
+    },
+    "Address" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنوان"
+          }
+        }
+      }
+    },
+    "Al-Raed Apartments project is one of Alen Real Estate projects that offers innovative residential products and distinguished services while ensuring the highest levels of quality." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشروع شقق الرائد هو أحد مشاريع شركة الين العقارية التي تقدم منتجات سكنية مبتكرة وخدمات متميزة مع ضمان أعلى مستويات الجودة."
+          }
+        }
+      }
+    },
+    "Almorooj , Villa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المروج - فيلا"
+          }
+        }
+      }
+    },
+    "An apartment with a distinctive view of Wadi Mahdia and a strategic location very close to commercial centers and a highway that touches the borders of Diriyah and takes you beyond your imagination to the largest events of the third Riyadh season." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة بإطلالة مميزة على وادي المهدية وموقع استراتيجي قريب جدًا من المراكز التجارية وطريق سريع يلامس حدود الدرعية ويأخذك إلى ما هو أبعد من خيالك إلى أكبر فعاليات موسم الرياض الثالث."
+          }
+        }
+      }
+    },
+    "Apartment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقه"
+          }
+        }
+      }
+    },
+    "Apartment for sell" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة للبيع"
+          }
+        }
+      }
+    },
+    "Apartment, Alyasmin" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة - الياسمين"
+          }
+        }
+      }
+    },
+    "Apartments for annual rent feature new air conditioners and a strategic location close to all services." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقق للإيجار السنوي تتميز بمكيفات جديدة وموقع استراتيجي قريب من جميع الخدمات."
+          }
+        }
+      }
+    },
+    "Are you sure you want to log out?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل انت متأكد من تسجيل الخروج؟"
+          }
+        }
+      }
+    },
+    "Are you sure you want to logout ?" : {
+
+    },
+    "Are you sure you want to remove from favorites?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل انت متأكد من ازالة العقار من المفضلة؟"
+          }
+        }
+      }
+    },
+    "area" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المساحة"
+          }
+        }
+      }
+    },
+    "Bath Rooms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دورات مياة"
+          }
+        }
+      }
+    },
+    "Bed Rooms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غرف نوم"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        }
+      }
+    },
+    "Cancle" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        }
+      }
+    },
+    "Classic Duplex" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دوبلكس كلاسيكي"
+          }
+        }
+      }
+    },
+    "Classic Villa for rent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا كلاسيكي للإيجار"
+          }
+        }
+      }
+    },
+    "Date of Birth " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تاريخ الميلاد"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تم"
+          }
+        }
+      }
+    },
+    "Dont have an account?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس لديك حساب؟"
+          }
+        }
+      }
+    },
+    "Duplex " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ديبلوكس"
+          }
+        }
+      }
+    },
+    "Duplex, Alarid" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ديبلوكس - العارض"
+          }
+        }
+      }
+    },
+    "Duplex, Alnarjis" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ديبلوكس - النرجس"
+          }
+        }
+      }
+    },
+    "Email" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الإلكتروني"
+          }
+        }
+      }
+    },
+    "Email " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البريد الإلكتروني"
+          }
+        }
+      }
+    },
+    "Fahad Alahmari" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فهد المطيري"
+          }
+        }
+      }
+    },
+    "Fajer Alkaldi" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فجر الخالدي"
+          }
+        }
+      }
+    },
+    "Favorite" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المفضلة"
+          }
+        }
+      }
+    },
+    "Floors" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدوار"
+          }
+        }
+      }
+    },
+    "For Rent" : {
+
+    },
+    "For Sale" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للبيع"
+          }
+        }
+      }
+    },
+    "Full Name" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم الكامل"
+          }
+        }
+      }
+    },
+    "Full Name " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاسم الكامل"
+          }
+        }
+      }
+    },
+    "Fully furnished Villa in a prime location opposite King Salman Road, next to a mosque and near the airport, King Fahd Road, Diriyah and Al-Ammaria." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا مجهزة بالكامل بموقع متميز مقابل طريق الملك سلمان بجوار مسجد وبالقرب من المطار وطريق الملك فهد والدرعية والعمارية."
+          }
+        }
+      }
+    },
+    "Furnished villa in classic style with elevator and security cameras." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا مجهزه على الطراز الكلاسيكي مع مصعد وكاميرات مراقبة."
+          }
+        }
+      }
+    },
+    "Gallery" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معرض الصور"
+          }
+        }
+      }
+    },
+    "Gander " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ذكر / انثى"
+          }
+        }
+      }
+    },
+    "gmail.com" : {
+
+    },
+    "Go to the login screen in the app. The login screen will appear, and we will proceed to the account recovery process. Enter the username or email address associated with your account." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتقل إلى شاشة تسجيل الدخول في التطبيق. ستظهر شاشة تسجيل الدخول، وسننتقل إلى عملية استرداد الحساب. أدخل اسم المستخدم أو عنوان البريد الإلكتروني المرتبط بحسابك."
+          }
+        }
+      }
+    },
+    "Help Center" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مركز المساعدة"
+          }
+        }
+      }
+    },
+    "Home" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرئيسية"
+          }
+        }
+      }
+    },
+    "House" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "منزل"
+          }
+        }
+      }
+    },
+    "How can access Your Save Properties ?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف يمكنني الوصول لعقارات المفضلة؟"
+          }
+        }
+      }
+    },
+    "How do I contact aproperty owner ?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف يمكنني التواصل مع مالك العقار؟"
+          }
+        }
+      }
+    },
+    "How to search for properties in the app ?" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كيف يمكنني البحث عن عقار في التطبيق؟"
+          }
+        }
+      }
+    },
+    "Hundereds of the best real estate at affordable prices" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مئات من افضل العقارات و بسعر مناسب"
+          }
+        }
+      }
+    },
+    "Key" : {
+      "extractionState" : "manual"
+    },
+    "Kitchens" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مطبخ"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "االغة"
+          }
+        }
+      }
+    },
+    "Let's find the real estate that suits you right now!" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنبحث معاً عن العقار المناسب لك الان!"
+          }
+        }
+      }
+    },
+    "Let's you in" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انضم إلينا"
+          }
+        }
+      }
+    },
+    "Living Rooms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غرف جلوس"
+          }
+        }
+      }
+    },
+    "Location" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الموقع"
+          }
+        }
+      }
+    },
+    "Login" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل دخول"
+          }
+        }
+      }
+    },
+    "Logout" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خروج"
+          }
+        }
+      }
+    },
+    "Look for a real estate quickly and easily with one click" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث عن عقارك بشكل اسرع بضغطة زر"
+          }
+        }
+      }
+    },
+    "m²" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "²م"
+          }
+        }
+      }
+    },
+    "Message" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرسائل"
+          }
+        }
+      }
+    },
+    "Messages" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرسائل"
+          }
+        }
+      }
+    },
+    "Moderen Villa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا حديثة"
+          }
+        }
+      }
+    },
+    "Modern Apartment " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة حديثة"
+          }
+        }
+      }
+    },
+    "Modern Apartment, rent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة حديثة للإيجار"
+          }
+        }
+      }
+    },
+    "Modren Villa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا حديثة"
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزيد"
+          }
+        }
+      }
+    },
+    "My Favorites" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مفضلتي"
+          }
+        }
+      }
+    },
+    "My Real Estate" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عقاراتي"
+          }
+        }
+      }
+    },
+    "New Apartment for sell" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شقة جديدة للبيع"
+          }
+        }
+      }
+    },
+    "New duplex villa featuring an elevator and new air conditioners." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا دوبلكس جديدة تحتوي على مصعد ومكيفات جديدة."
+          }
+        }
+      }
+    },
+    "New Property" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضافة عقار جديد"
+          }
+        }
+      }
+    },
+    "Our Recommendation" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "توصياتنا"
+          }
+        }
+      }
+    },
+    "Overview" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصف"
+          }
+        }
+      }
+    },
+    "OverView" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وصف"
+          }
+        }
+      }
+    },
+    "Owner" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المالك"
+          }
+        }
+      }
+    },
+    "Owner Name" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المالك"
+          }
+        }
+      }
+    },
+    "Password" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة المرور"
+          }
+        }
+      }
+    },
+    "Phone Number " : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رقم الهاتف"
+          }
+        }
+      }
+    },
+    "price" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السعر"
+          }
+        }
+      }
+    },
+    "Profile" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسابي"
+          }
+        }
+      }
+    },
+    "Reals" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العقارات"
+          }
+        }
+      }
+    },
+    "RealtyQuester@" : {
+
+    },
+    "Remove" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إزالة"
+          }
+        }
+      }
+    },
+    "Rent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للإجار"
+          }
+        }
+      }
+    },
+    "Riyadh" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض"
+          }
+        }
+      }
+    },
+    "Riyadh, alAqeeq, Altahlyah street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض العقيق شارع التحلية"
+          }
+        }
+      }
+    },
+    "Riyadh, Alarid, bin nahawy street" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، العارض، شارع بن النحوي"
+          }
+        }
+      }
+    },
+    "Riyadh, Alezdehar, Alhussain bin ali street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، الازدهار، شارع الحسين بن علي"
+          }
+        }
+      }
+    },
+    "Riyadh, almalqa , wady hajar street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، الملقا، شارع وادي حجر"
+          }
+        }
+      }
+    },
+    "Riyadh, Almalqa, 310 street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض الملقا شارع 310"
+          }
+        }
+      }
+    },
+    "Riyadh, Almorooj, bin sena street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض المروج شارع بن سينا"
+          }
+        }
+      }
+    },
+    "Riyadh, Alnarjis, 326 street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، النرجس، شارع 326"
+          }
+        }
+      }
+    },
+    "Riyadh, alQirawan, Ibrahim bin radwan street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض القيروان شارع ابراهيم بن رضوان"
+          }
+        }
+      }
+    },
+    "Riyadh, alsahafa, 204 street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض الياسمين شارع 203"
+          }
+        }
+      }
+    },
+    "Riyadh, Alsahafa, Buraidah street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، الصحافة، شارع بريدة"
+          }
+        }
+      }
+    },
+    "Riyadh, Altaawon, Alahmady street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، التعاون، شارع الأحمدي"
+          }
+        }
+      }
+    },
+    "Riyadh, Alyasmin,203 street" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض الياسمين شارع 203"
+          }
+        }
+      }
+    },
+    "Riyadh, Gurnatha, Jabal Ali street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، غرناطة، شارع جبل علي"
+          }
+        }
+      }
+    },
+    "Riyadh, huteen, Al Raqibah street\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض حطين شارع الرقبة"
+          }
+        }
+      }
+    },
+    "Riyadh, King Fahad , Prince Ahmed bin Abdulaziz  street" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الرياض، طريق الملك فهد ، شارع الامير احمد بن عبدالعزيز"
+          }
+        }
+      }
+    },
+    "Sale" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للبيع"
+          }
+        }
+      }
+    },
+    "Search for real.." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البحث عن  عقار..."
+          }
+        }
+      }
+    },
+    "See All" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكل"
+          }
+        }
+      }
+    },
+    "Select a paint color" : {
+
+    },
+    "Settings" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاعدادت "
+          }
+        }
+      }
+    },
+    "Signup" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل"
+          }
+        }
+      }
+    },
+    "Skip" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي"
+          }
+        }
+      }
+    },
+    "SR" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ر.س"
+          }
+        }
+      }
+    },
+    "SR /Yearly" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ر.س/ سنوي"
+          }
+        }
+      }
+    },
+    "SR %@" : {
+
+    },
+    "SR %@ /yearly" : {
+
+    },
+    "Start" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ"
+          }
+        }
+      }
+    },
+    "Start Conversation" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بدء محادثة"
+          }
+        }
+      }
+    },
+    "The Villa features European concealed air conditioning and a master room Socialist first floor in Jupiter." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحتوي الفيلا على تكييف أوروبي مخفي وغرفة رئيسية اشتراكية في الطابق الأول في جوبيتر."
+          }
+        }
+      }
+    },
+    "The villa features smart control systems, a fully equipped elevator, and water and thermal insulation of the surfaces.\n" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تتميز الفيلا بأنظمة تحكم ذكية، ومصعد مجهز بالكامل وعزل مائي وحراري للأسطح."
+          }
+        }
+      }
+    },
+    "Title" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عنوان"
+          }
+        }
+      }
+    },
+    "Type a message ..." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب رساله...."
+          }
+        }
+      }
+    },
+    "Typically involves finding the contact information within the property listing or using a designated Chating feature." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتضمن عادةً العثور على معلومات الاتصال ضمن قائمة العقارات أو استخدام ميزة الدردشة المخصصة."
+          }
+        }
+      }
+    },
+    "Update" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحديث"
+          }
+        }
+      }
+    },
+    "UPDATE" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحديث"
+          }
+        }
+      }
+    },
+    "Use search you'll find various filters to refine your property search." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم البحث وستجد مرشحات مختلفة لتحسين البحث عن الممتلكات الخاصة بك."
+          }
+        }
+      }
+    },
+    "Villa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا"
+          }
+        }
+      }
+    },
+    "Villa , Almalqa " : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "  فيلا - الملقا"
+          }
+        }
+      }
+    },
+    "Villa for monthly rent" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا للإيجار الشهري"
+          }
+        }
+      }
+    },
+    "Villa, alsahafa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا - الشفا"
+          }
+        }
+      }
+    },
+    "Welcom back 👋🏼" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبا 👋🏼"
+          }
+        }
+      }
+    },
+    "Yes, Logout" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعم، خروج"
+          }
+        }
+      }
+    },
+    "Yes,Logout" : {
+
+    },
+    "Yes,remove" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعم، إزاله"
+          }
+        }
+      }
+    },
+    "You can access your saved properties from the app by clicking on the favorites tab." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يمكنك الوصول إلى عقاراتك المحفوظة من التطبيق من خلال النقر على علامة تبويب المفضلة."
+          }
+        }
+      }
+    },
+    "عربي" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
