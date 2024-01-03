@@ -44,6 +44,16 @@
         }
       }
     },
+    "**4. 3D Plan**" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**3. مخطط 3D**"
+          }
+        }
+      }
+    },
     "**4. Location**" : {
       "localizations" : {
         "ar" : {
@@ -148,6 +158,50 @@
     "+9660000000" : {
 
     },
+    "✅ All" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "✅ الكل"
+          }
+        }
+      }
+    },
+    "🏘️ Villa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🏘️ فيلا"
+          }
+        }
+      }
+    },
+    "🏡 House" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🏡 منزل"
+          }
+        }
+      }
+    },
+    "🏢 Apartment" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🏢 شقة"
+          }
+        }
+      }
+    },
     "📍" : {
 
     },
@@ -163,6 +217,9 @@
           }
         }
       }
+    },
+    "3D Scan" : {
+
     },
     "011345987" : {
 
@@ -211,7 +268,7 @@
         }
       }
     },
-    "A Villa is characterized by elegant design and modern technologies, as the villas include a smart entrance and an elegant inner courtyard." : {
+    "A Villa characterized by elegant design and modern technologies, as the villas include a smart entrance and an elegant inner courtyard" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -331,7 +388,14 @@
       }
     },
     "Are you sure you want to logout ?" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل انت متأكد من تسجيل الخروج؟"
+          }
+        }
+      }
     },
     "Are you sure you want to remove from favorites?" : {
       "localizations" : {
@@ -418,6 +482,17 @@
         }
       }
     },
+    "Creat your real estate 3D plan" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أنشئ مخطط 3D لعقارك"
+          }
+        }
+      }
+    },
     "Date of Birth " : {
       "localizations" : {
         "ar" : {
@@ -434,6 +509,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "حذف"
+          }
+        }
+      }
+    },
+    "Dismiss" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "رجوع"
           }
         }
       }
@@ -555,7 +640,14 @@
       }
     },
     "For Rent" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "للإجار"
+          }
+        }
+      }
     },
     "For Sale" : {
       "localizations" : {
@@ -808,6 +900,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ابحث عن عقارك بشكل اسرع بضغطة زر"
+          }
+        }
+      }
+    },
+    "Luxury villas for rent in Al Rozana Real Estate Complex\nA very, very special location, a contemporary and modern look, and wide corridors and entrances." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فلل فاخرة للإيجار في مجمع الروزانا العقاري\nموقع مميز جداً جداً وشكل عصري وحديث وممرات ومداخل واسعة."
           }
         }
       }
@@ -1084,7 +1187,7 @@
         }
       }
     },
-    "Riyadh, alAqeeq, Altahlyah street\n" : {
+    "Riyadh, alAqeeq, Altahlyah street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1106,7 +1209,7 @@
         }
       }
     },
-    "Riyadh, Alezdehar, Alhussain bin ali street\n" : {
+    "Riyadh, Alezdehar, Alhussain bin ali street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1117,7 +1220,7 @@
         }
       }
     },
-    "Riyadh, almalqa , wady hajar street\n" : {
+    "Riyadh, almalqa , wady hajar street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1134,12 +1237,12 @@
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "الرياض الملقا شارع 310"
+            "value" : "الرياض، الملقا ، شارع ٣١٠"
           }
         }
       }
     },
-    "Riyadh, Almorooj, bin sena street\n" : {
+    "Riyadh, Almorooj, bin sena street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1150,7 +1253,7 @@
         }
       }
     },
-    "Riyadh, Alnarjis, 326 street\n" : {
+    "Riyadh, Alnarjis, 326 street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1161,7 +1264,7 @@
         }
       }
     },
-    "Riyadh, alQirawan, Ibrahim bin radwan street\n" : {
+    "Riyadh, alQirawan, Ibrahim bin radwan street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1172,7 +1275,7 @@
         }
       }
     },
-    "Riyadh, alsahafa, 204 street\n" : {
+    "Riyadh, alsahafa, 204 street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1183,7 +1286,7 @@
         }
       }
     },
-    "Riyadh, Alsahafa, Buraidah street\n" : {
+    "Riyadh, Alsahafa, Buraidah street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1194,7 +1297,7 @@
         }
       }
     },
-    "Riyadh, Altaawon, Alahmady street\n" : {
+    "Riyadh, Altaawon, Alahmady street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1216,7 +1319,7 @@
         }
       }
     },
-    "Riyadh, Gurnatha, Jabal Ali street\n" : {
+    "Riyadh, Gurnatha, Jabal Ali street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1227,7 +1330,7 @@
         }
       }
     },
-    "Riyadh, huteen, Al Raqibah street\n" : {
+    "Riyadh, huteen, Al Raqibah street" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1238,13 +1341,13 @@
         }
       }
     },
-    "Riyadh, King Fahad , Prince Ahmed bin Abdulaziz  street" : {
+    "Riyadh, King Fahad , Prince Ahmed bin Abdulaziz  street\n" : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "الرياض، طريق الملك فهد ، شارع الامير احمد بن عبدالعزيز"
+            "value" : "الرياض، الملك فهد، شارع الأمير أحمد بن عبد العزيز"
           }
         }
       }
@@ -1282,6 +1385,16 @@
     },
     "Select a paint color" : {
 
+    },
+    "Select File" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار ملف"
+          }
+        }
+      }
     },
     "Settings" : {
       "extractionState" : "manual",
@@ -1335,10 +1448,24 @@
       }
     },
     "SR %@" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ ر.س"
+          }
+        }
+      }
     },
     "SR %@ /yearly" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ر.س %@ / سنوي"
+          }
+        }
+      }
     },
     "Start" : {
       "localizations" : {
@@ -1360,7 +1487,28 @@
         }
       }
     },
+    "Start Scanning" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بدء المسح"
+          }
+        }
+      }
+    },
     "The Villa features European concealed air conditioning and a master room Socialist first floor in Jupiter." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحتوي الفيلا على تكييف أوروبي مخفي وغرفة رئيسية اشتراكية في الطابق الأول في جوبيتر."
+          }
+        }
+      }
+    },
+    "The villa features smart control systems, a fully equipped elevator, and water and thermal insulation of the surfaces." : {
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -1453,6 +1601,17 @@
         }
       }
     },
+    "Villa , Almalqa" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فيلا ، الملقا"
+          }
+        }
+      }
+    },
     "Villa , Almalqa " : {
       "extractionState" : "manual",
       "localizations" : {
@@ -1508,7 +1667,14 @@
       }
     },
     "Yes,Logout" : {
-
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نعم ، خروج"
+          }
+        }
+      }
     },
     "Yes,remove" : {
       "localizations" : {
@@ -1526,6 +1692,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "يمكنك الوصول إلى عقاراتك المحفوظة من التطبيق من خلال النقر على علامة تبويب المفضلة."
+          }
+        }
+      }
+    },
+    "You have no properties yet..." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس لديك عقار بعد..."
           }
         }
       }

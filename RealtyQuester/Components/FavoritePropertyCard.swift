@@ -57,14 +57,16 @@ struct FavoritePropertyCard: View {
                 
                        
                 }.padding(.horizontal)
-            }.sheet(isPresented: $isPresented, content: {
+            } .sheet(isPresented: $isPresented, content: {
                 ConfomDeletFromFavorite(presentSheet: $isPresented, favoritePropertyId: favoritePropertyId)
+                    .presentationDetents([.medium, .medium, .height(200)])
             })
-            .presentationDetents([.height(250)])
+            
+
             
     }
 }
-
+    
 //#Preview {
 //    FavoritePropertyCard()
 //}

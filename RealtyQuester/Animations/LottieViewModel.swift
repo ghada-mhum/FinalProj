@@ -9,18 +9,16 @@ import SwiftUI
 import Foundation
 
 struct LottieView: UIViewRepresentable {
-    
-    var animationFileName: String
     let loopMode: LottieLoopMode
-    
+
     func updateUIView(_ uiView: UIViewType, context: Context) {
-        
+
     }
-    
+
     func makeUIView(context: Context) -> Lottie.LottieAnimationView {
-        let animationView = LottieAnimationView(name: animationFileName)
-        animationView.loopMode = loopMode
+        let animationView = LottieAnimationView(name: "ul4R7L5jNY")
         animationView.play()
+        animationView.loopMode = loopMode
         animationView.contentMode = .scaleAspectFit
         return animationView
     }

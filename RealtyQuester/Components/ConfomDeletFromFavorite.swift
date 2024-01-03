@@ -54,8 +54,8 @@ struct ConfomDeletFromFavorite: View {
                         })
                     }
             }
-           Spacer()
         }
+        
     }
 }
 
